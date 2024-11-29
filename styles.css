@@ -126,17 +126,14 @@ header {
   background-color: teal;
   color: white;
   transform: scale(1.1);
-  animation: pulse 0.5s infinite;
+  animation: pulse 0.5s infinite alternate;
 }
 
 @keyframes pulse {
   0% {
     transform: scale(1);
   }
-  50% {
-    transform: scale(1.1);
-  }
   100% {
-    transform: scale(1);
+    transform: scale(1.1);
   }
 }
